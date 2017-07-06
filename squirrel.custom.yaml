@@ -1,0 +1,60 @@
+# Squirrel settings
+# encoding: utf-8
+# config_version: "0.23"
+
+patch:
+  us_keyboard_layout: true
+
+# Style
+  style:
+    color_scheme: zhihu
+
+    layout:
+      min_width: 160
+      min_height: 0
+      margin_x: 12
+      margin_y: 12
+      spacing: 10
+      candidate_spacing: 5
+      hilite_spacing: 5
+      hilite_padding: 5
+
+  preset_color_schemes:
+    zhihu:
+      name: "zhihu"
+      author: "joosun@zhihu.me"
+      candidate_format: "\u2005%c\u2005%@\u2005" 
+      horizontal: true
+      font_point: 18
+      fullscreen: false
+      inline_preedit: false
+      display_tray_icon: false
+      text_color: 0xcac9c8
+      back_color: 0xffffff
+      border_color: 0xEA9100
+      label_color: 0xcac9c8
+      hilited_text_color: 0xEA9100
+      hilited_back_color: 0xffffff
+      candidate_text_color: 0xEA9100
+      comment_text_color: 0xcac9c8
+      hilited_candidate_text_color: 0xffffff
+      hilited_comment_text_color: 0xffffff
+      hilited_candidate_back_color: 0xEA9100
+      corner_radius: 0
+      border_width: 3
+      border_height: 3
+
+# App Options
+  app_options:
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    com.google.Chrome:
+      ascii_mode: true
+    com.google.android.studio:
+      ascii_mode: true
+    com.google.android.studio-EAP:
+      ascii_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true

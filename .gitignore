@@ -1,0 +1,12 @@
+*.*
+!*.custom.*
+!luna_pinyin.hanyu.dict.yaml
+!luna_pinyin.cn_en.dict.yaml
+!luna_pinyin.extended.dict.yaml
+!luna_pinyin.poetry.dict.yaml
+!luna_pinyin.emoji.dict.yaml
+!emoji.dict.yaml
+!emoji.schema.yaml
+!easy_en.dict.yaml
+!easy_en.schema.yaml
+sync/
